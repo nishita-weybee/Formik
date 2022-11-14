@@ -1,0 +1,31 @@
+form {
+  width: 50%;
+  margin: auto;
+}
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
